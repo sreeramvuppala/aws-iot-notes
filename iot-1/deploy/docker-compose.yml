@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: "sreeramvuppala/iot-1:latest"
+    ports:
+      - "80:5000"
